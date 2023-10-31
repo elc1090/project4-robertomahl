@@ -94,7 +94,7 @@ export default defineComponent({
 			// Original spreadsheetId
 			//const spreadsheetId = '1-3t23mTmuvJaVK6NAN-ivBr9fbE8NGZ6RNMQPwvd_oc';
 
-			const apiKey = 'AIzaSyA_LT1DlQ_iArm1fGqxIK-YpjAOUSoZgZo';
+			const apiKey = 'AIzaSyC9jwv8p2ejTbOCEtXpCRmTIBYhU3Ava3Q';
 
 			const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/pontos?key=${apiKey}`;
 			api.get(url)
